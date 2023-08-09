@@ -138,6 +138,7 @@ const searchPizza = (e) => {
   <p id="preciopizza">Precio: $${pizza.precio}</p>
   <img src=" ${pizza.imagen} " id="imagenpizza"/>
   </div>`
+  Error.textContent=""
 
   }
 }
