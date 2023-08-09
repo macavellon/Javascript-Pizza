@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+}
+.pizza {
+    width: 90px;
+}
+
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pizzacard{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 20px;
+    border-radius: 10px;
+    padding: 10px 10px 0 10px ;
+    background-color: blueviolet;
+    flex-direction: column;
+    gap:5px;
+
+}
+
+#boton {
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 8px;
+    cursor: pointer;
+    margin-left: 20px;
+    background-color: lightblue;
+
+}
+
+#input-number {
+    padding:8px;
+    border-radius: 4px;
+    width: 120px;
+    font-size: 15px;
+}
+
+
+#boton:hover {
+    background-color: blueviolet;
+}
+
+
+h1 {
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    color:blueviolet;
+    margin-top: 20px;
+
+}
+
+#nombrepizza {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+
+#error {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color:red;
+    font-weight: 600;
+}
+
+.error-estilo {
+    border: 1px solid #dc3545;
+
+}
+
+#preciopizza {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+#buscador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:30px;
+    margin: 20px;
+}
+
+
+#imagenpizza {
+    width: 180px;
+    border-radius: 15px;
+    margin: 20px;
+
+
+}
+
+#form.error input {
+    border: 1px solid #dc3545;
+  }
